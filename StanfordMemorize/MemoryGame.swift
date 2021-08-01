@@ -9,12 +9,13 @@ import Foundation
 
 
 struct MemoryGame<CardContent> {
+    // Act as gatekeeper
     private(set) var cards: Array<Card>
     
     func choose(_ card: Card){
         
     }
-    
+    // generics CardContent is a function
     init(numberOfParisOfCards: Int, createCardContent: (Int) -> CardContent) {
         cards = Array<Card>()
         // add numberOfPairsOfCards x 2 cards to cards array
