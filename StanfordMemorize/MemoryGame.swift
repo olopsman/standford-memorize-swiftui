@@ -8,24 +8,35 @@
 import Foundation
 
 
-struct MemoryGame<CardContent> {
+struct MemoryGame<CardContent> where CardContent: Equatable {
     // Act as gatekeeper
     private(set) var cards: Array<Card>
     
+    private var indexofTheOneAndOnlyFaceUpCard: Int?
+    
     mutating func choose(_ card: Card){
-        if let chosenIndex = index(of: card) {
+        if let chosenIndex = cards.firstIndex(where: { $0.id == card.id}),
+           !cards[chosenIndex].isFaceUp,
+           !cards[chosenIndex].isMatched {
+            // check for potential match
+            if let potentialMatchIndex = indexofTheOneAndOnlyFaceUpCard {
+                // chosenIndex and potential match needs to be equatable
+                if cards[chosenIndex].content == cards[potentialMatchIndex].content {
+                    cards[chosenIndex].isMatched = true
+                    cards[potentialMatchIndex].isMatched = true
+                }
+                indexofTheOneAndOnlyFaceUpCard = nil
+            } else {
+                for index in 0..<cards.count {
+                    cards[index].isFaceUp = false
+                }
+                indexofTheOneAndOnlyFaceUpCard = chosenIndex
+            }
+            
             cards[chosenIndex].isFaceUp.toggle()
         }
     }
     
-    func index(of card: Card) -> Int? {
-        for index in 0..<cards.count {
-            if cards[index].id == card.id {
-                return index
-            }
-        }
-        return nil // bogus!
-    }
     // generics CardContent is a function
     init(numberOfParisOfCards: Int, createCardContent: (Int) -> CardContent) {
         cards = Array<Card>()
@@ -38,7 +49,7 @@ struct MemoryGame<CardContent> {
     }
     
     struct Card: Identifiable {
-        var isFaceUp: Bool = true
+        var isFaceUp: Bool = false
         var isMatched: Bool = false
         var content: CardContent
         var id: Int
