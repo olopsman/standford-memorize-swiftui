@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE46010C26B687B3006D0875 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46010B26B687B3006D0875 /* MemoryGame.swift */; };
 		BE46010E26B68A18006D0875 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46010D26B68A18006D0875 /* EmojiMemoryGame.swift */; };
+		BE7043D126BC0A4400CAFF69 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7043D026BC0A4400CAFF69 /* AspectVGrid.swift */; };
 		BED39C4326B579AB0045B72D /* StanfordMemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED39C4226B579AB0045B72D /* StanfordMemorizeApp.swift */; };
 		BED39C4526B579AB0045B72D /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED39C4426B579AB0045B72D /* EmojiMemoryGameView.swift */; };
 		BED39C4726B579AD0045B72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED39C4626B579AD0045B72D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		BE46010B26B687B3006D0875 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		BE46010D26B68A18006D0875 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		BE7043D026BC0A4400CAFF69 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		BED39C3F26B579AB0045B72D /* StanfordMemorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordMemorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED39C4226B579AB0045B72D /* StanfordMemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanfordMemorizeApp.swift; sourceTree = "<group>"; };
 		BED39C4426B579AB0045B72D /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				BED39C4226B579AB0045B72D /* StanfordMemorizeApp.swift */,
 				BED39C4426B579AB0045B72D /* EmojiMemoryGameView.swift */,
+				BE7043D026BC0A4400CAFF69 /* AspectVGrid.swift */,
 				BE46010B26B687B3006D0875 /* MemoryGame.swift */,
 				BE46010D26B68A18006D0875 /* EmojiMemoryGame.swift */,
 				BED39C4626B579AD0045B72D /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				BE46010C26B687B3006D0875 /* MemoryGame.swift in Sources */,
 				BED39C4526B579AB0045B72D /* EmojiMemoryGameView.swift in Sources */,
 				BED39C4326B579AB0045B72D /* StanfordMemorizeApp.swift in Sources */,
+				BE7043D126BC0A4400CAFF69 /* AspectVGrid.swift in Sources */,
 				BE46010E26B68A18006D0875 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
