@@ -11,6 +11,7 @@
 		BE46010E26B68A18006D0875 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46010D26B68A18006D0875 /* EmojiMemoryGame.swift */; };
 		BE7043D126BC0A4400CAFF69 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7043D026BC0A4400CAFF69 /* AspectVGrid.swift */; };
 		BEA0D9D326BEAB3500622834 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0D9D226BEAB3500622834 /* Pie.swift */; };
+		BEA2054426BF276300908009 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2054326BF276300908009 /* Cardify.swift */; };
 		BED39C4326B579AB0045B72D /* StanfordMemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED39C4226B579AB0045B72D /* StanfordMemorizeApp.swift */; };
 		BED39C4526B579AB0045B72D /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED39C4426B579AB0045B72D /* EmojiMemoryGameView.swift */; };
 		BED39C4726B579AD0045B72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED39C4626B579AD0045B72D /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		BE46010D26B68A18006D0875 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		BE7043D026BC0A4400CAFF69 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		BEA0D9D226BEAB3500622834 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		BEA2054326BF276300908009 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		BED39C3F26B579AB0045B72D /* StanfordMemorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordMemorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED39C4226B579AB0045B72D /* StanfordMemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanfordMemorizeApp.swift; sourceTree = "<group>"; };
 		BED39C4426B579AB0045B72D /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				BED39C4226B579AB0045B72D /* StanfordMemorizeApp.swift */,
 				BED39C4426B579AB0045B72D /* EmojiMemoryGameView.swift */,
 				BEA0D9D226BEAB3500622834 /* Pie.swift */,
+				BEA2054326BF276300908009 /* Cardify.swift */,
 				BE7043D026BC0A4400CAFF69 /* AspectVGrid.swift */,
 				BE46010B26B687B3006D0875 /* MemoryGame.swift */,
 				BE46010D26B68A18006D0875 /* EmojiMemoryGame.swift */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA0D9D326BEAB3500622834 /* Pie.swift in Sources */,
+				BEA2054426BF276300908009 /* Cardify.swift in Sources */,
 				BE46010C26B687B3006D0875 /* MemoryGame.swift in Sources */,
 				BED39C4526B579AB0045B72D /* EmojiMemoryGameView.swift in Sources */,
 				BED39C4326B579AB0045B72D /* StanfordMemorizeApp.swift in Sources */,
